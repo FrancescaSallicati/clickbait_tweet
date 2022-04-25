@@ -15,7 +15,7 @@ Create the environment with conda:
 conda env create -f environment.yml
 ```
 
-Activate the Environment :
+Activate the Environment:
 
 ```bash
 conda activate clickbait_detection
@@ -33,7 +33,7 @@ python -m ipykernel install --user --name=clickbait_detection
 ### Git LFS
 
 Data and models are uploaded with git-lfs.  <br />
-From the root directory of this repo, run the following command to make sure that they are dowloaded.
+From the root directory of this repo, run the following command to make sure that they are dowloaded:
 
 ```bash
 git lfs pull
