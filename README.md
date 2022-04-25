@@ -35,7 +35,12 @@ python -m ipykernel install --user --name=clickbait_detection
 Data and models are uploaded with git-lfs.  <br />
 From the root directory of this repo, run the following command to make sure that they are dowloaded:
 
+To reconstruct the tensorflow checkpoint:
+1. Open a terminal.
+2. Move to the /trained_models/BERTWEET/bertweet/variables folder
+3. Run following code
+
 ```bash
-git lfs pull
+cat xa? > variables.data-00000-of-00001
 
 ```
